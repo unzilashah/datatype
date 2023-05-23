@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persondata 
+xmlns:a="http://www.nabeeldata.org/id:1"
+xmlns:b="http://www.nabeeldata.org/id:2"
+xmlns:c="http://www.nabeeldata.org/id:3"
+xmlns:d="http://www.nabeeldata.org/id:4"
+
+>
+
+<userdata id="1">
+<a:fname>Nabeel</a:fname>
+<a:fname>jawaid</a:fname>
+
+<a:age>21</a:age>
+</userdata>
+
+<userdata id="2">
+<b:fname>Nabeel</b:fname>
+<b:fname>jawaid</b:fname>
+<b:email>abc@gmail.com</b:email>
+<b:age>21</b:age>
+</userdata>
+
+<userdata id="3">
+<c:fname>Nabeel</c:fname>
+<c:fname>jawaid</c:fname>
+<c:email>abc@gmail.com</c:email>
+<c:age>21</c:age>
+</userdata>
+
+<userdata id="4">
+<d:fname>Nabeel</d:fname>
+<d:fname>jawaid</d:fname>
+<d:email>abc@gmail.com</d:email>
+<d:age>21</d:age>
+</userdata>
+
+</persondata>

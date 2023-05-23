@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class [
+    <!ELEMENT class (student*)>
+    <!ELEMENT student (name,age,sub1,grade,percentage)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT sub1 (#PCDATA)>
+    <!ELEMENT grade (#PCDATA)>
+    <!ELEMENT percentage (#PCDATA)>
+    <!ATTLIST student id  (eye|blue) "eye">
+    <!ENTITY abc "calling">
+]>
+<class>
+    <student id="eye">
+    <name>Ali</name>
+    <age>20</age>
+    <sub1>Math</sub1>
+    <grade>A,&abc;</grade>
+    <percentage>88%</percentage>
+    </student>
+
+    <student>
+        <name>wamiq</name>
+        <age>20</age>
+        <sub1>Math</sub1>
+        <grade>A*</grade>
+        <percentage>90%</percentage>
+        </student>
+
+        <student>
+            <name>Hamza</name>
+            <age>22</age>
+            <sub1>Math</sub1>
+            <grade>D</grade>
+            <percentage>50%</percentage>
+            </student>
+
+            <student>
+                <name>Ammar</name>
+                <age>19</age>
+                <sub1>Math</sub1>
+                <grade>A</grade>
+                <percentage>88%</percentage>
+                </student>
+
+                <student>
+                    <name>Abid</name>
+                    <age>19</age>
+                    <sub1>Math</sub1>
+                    <grade>B</grade>
+                    <percentage>78%</percentage>
+                    </student>
+</class>
